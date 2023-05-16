@@ -2167,7 +2167,7 @@ break
   ┃ ✯│${prefix} feura
   ┃ ✯│${prefix} delicia
   ┃ ✯│${prefix} pendejo
-  ┃ ✯│${prefix} puto o puta (la que quieras)
+  ┃ ✯│${prefix} puto o puta (la que quieras xd)
   ┃ ✯│${prefix} humornegro
   ┃ ✯╰───────────◆
   ╰━━━━━━━━━━━──⊷
