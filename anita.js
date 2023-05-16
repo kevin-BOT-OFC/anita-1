@@ -2167,8 +2167,8 @@ break
   ┃ ✯│${prefix} feura
   ┃ ✯│${prefix} delicia
   ┃ ✯│${prefix} pendejo
-  ┃ ✯│${prefix} puto o puta (la que quieras xd)
-  ┃ ✯│${prefix} humornegro
+  ┃ ✯│${prefix} puto o puta (la que quieras xd :v)
+  ┃ ✯│${prefix} humornegro 
   ┃ ✯╰───────────◆
   ╰━━━━━━━━━━━──⊷
 
@@ -2181,7 +2181,7 @@ break
   ┃ ✯│${prefix} frases o fraseromantica
   ┃ ✯│${prefix} historia o terror
   ┃ ✯│${prefix} suspenso
-  ┃ ✯│${prefix} filosofia
+  ┃ ✯│${prefix} filosofia 
   ┃ ✯╰───────────◆
   ╰━━━━━━━━━━━──⊷
 
