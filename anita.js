@@ -1,7 +1,3 @@
-// BASE PARA CREADORES DE BOTS 
-
-// CREDITOS : CLOVERS MODS
-// CREDITOS : JULS MODDERS
 
 // CONSTANTES DE NODULES 
 
@@ -511,8 +507,12 @@ case 'agregar' :
 // ESCRIBIR AQUI COMANDOS CON PREFIJO
 
 case 'hola':
-  enviartexto('Que tal en que andas✌😃')
+  const saludo = ['Que tal en que andas✌😃', 'hola','hola como vas', 'hola ya comistes', ' hola ya te la jalastes?', 'hoy no tengo flojera', 'estoy ocupada deja de joder', 'como chingas', 'puto','hola ati tambien', 'hola que homosexual eres','XD','chao']
+  const saludo2 = Math.floor(Math.random()*saludo.length)
+  const saludo3 = saludo[saludo2]
+  enviartexto(saludo3)
   break
+ 
 
   case 'Comoestas':
     case 'comoestas':
@@ -2139,8 +2139,6 @@ break
   ┃ ✯│▢${prefix} salir
   ┃ ✯│▢${prefix} ping
   ┃ ✯│▢${prefix} creador
-  ┃ ✯│▢${prefix} playmp4
-  ┃ ✯│▢${prefix} playmp3
   ┃ ✯╰───────────◆
   ╰━━━━━━━━━━━──⊷
 
@@ -2182,6 +2180,8 @@ break
   ┃ ✯│${prefix} piropo
   ┃ ✯│${prefix} frases o fraseromantica
   ┃ ✯│${prefix} historia o terror
+  ┃ ✯│${prefix} suspenso
+  ┃ ✯│${prefix} filosofia
   ┃ ✯╰───────────◆
   ╰━━━━━━━━━━━──⊷
 
@@ -2348,6 +2348,102 @@ case 'fraseromantica': case 'frases' :
   enviartexto(frase3)
   break
 
+//H I S T O R I A S
+
+case 'suspenso':
+  const suspen = ['El barco se mecía por las holas como un juguete que es sumergido por un niño, la noche había caído sobre sus cabezas. Padre e hijo habían decidido pasar un fin de semana en alta mar para pescar un poco y olvidarse de la cotidianidad, pero el destino les había tomado por sorpresa con una tormenta que haría temblar hasta el más apto contramaestre, no había opciones a la vista, era obvio que el barco no soportaría más las imponentes olas. ahogarse es una manera terrible de morir pensó el padre agobiado mientras sostenía a su hijo, en ese momento tomo una decisión que ningún padre querría decidir, no quería que su hijo muriera de la peor forma y con rifle en mano apunto a su pequeño y diciéndole cuanto lo amaba disparo contra su humanidad, sin duda un disparo era una manera más rápida y menos dolorosa, tomo el rifle pero ahora apuntándose para quitarse la vida y cuando estaba decidido a jalar del gatillo una ola volteo el barco dejándolo inconsciente. Despertó el hombre pensando que había muerto, pero fue un médico quien en frente de él le comento que había sido encontrado en la playa, que la tormenta había cesado. Las decisiones que tomamos son las que marcan y moldean nuestro futuro.',
+'El gordo como había sido apodado por el forense, acababa de llegar a la morgue, su obesidad mórbida le impedía entrar en la cámara frigorífica. El forense era un hombre algo peculiar, obviando su humor negro y su manera de relacionarse con la muerte era de esperarse cualquier broma o eso pensaba su ayudante quien era apenas un joven aprendiz. Decidieron ubicar el cadáver en una tina con hielo para el día siguiente realizar la autopsia. Antes de retirarse el forense decide invitar a manera de reto al joven a ver una película y comer algo de pizza en el salón donde se encontraba el obeso cadáver ´´el gordo´´ el aprendiz lo vio como una prueba puesto sabia la reputación de su mentor, acepta  y se dispusieron a ver la película mientras comían. Al día siguiente retornan a su trabajo, deciden practicar la autopsia y fue el último día que dijeron en su vida la palabra gordo sin sentir un profundo terror en sus entrañas, puesto que el cadáver tenía en su interior restos de pizza.',
+'Tus ojos se abren y descubres que estas corriendo por un oscuro bosque descalzo, sientes una respiración pesada y un olor nauseabundo, miras atrás y no vez absolutamente nada, miras hacia delante y vez a alguien escapando de ti, y ahí comprendes quien es el monstruo.',
+'Era el momento más importante de la humanidad, el primer contacto con esos seres irradiados de luz, sus naves eran imponentes y a su vez aterradoras. El mundo estaba detrás de las pantallas de noticieros en vivo con la pregunta ¿Qué querrán con nosotros? ¿Serán amigables? Faltaban solamente minutos para que los científicos lograran hacer contacto, ya estaban frente a frente con los seres y en ese mismo instante las cámaras se apagaron, el mundo quedo completamente desconectado y SI, algo malo estaba sucediendo.',
+'Llevaba semanas atrapado en aquel agujero con su mano fracturada y lleno de cortadas, las gotas de agua caían del cielo siendo su respiro para menguar la sed, pasaban los días y cada vez más el hambre hacía eco en su cabeza. El rescate se llevó a cabo a la tercera semana, ´´carne es carne´´ decía el mal nutrido hombre mientras se alejaba con los rescatistas, ahí comprendieron que tenía un acompañante.',
+'Golpe de estado, inminente guerra civil, militares en las calles enfrentándose a los leales del gobierno, la muerte se nombraba reina esa tarde mientras el joven trabajador se alejaba en su auto hacia su casa, todos los trabajadores habían desalojado sus puestos de trabajo, apenas una hora atrás todo parecía ser un día normal y que el terminaría viendo su canal de televisión favorito y limpiaría su acuario, puesto que la vida de soltero realmente no tiene tantas responsabilidades, en cambio se encontraba manejando desesperado para salir a los suburbios y llegar a su casa, las alarmas sonaban y generaban una sensación que le paralizaba la respiración, en ese momento su auto se detuvo, debió hacerle mantenimiento una semana antes. El mecánico tenía razón.',
+'Despertó de una pesadilla y no podía ver nada, la oscuridad estaba donde dirigiera la mirada, agarro su celular pero a pesar de encenderlo no lograba ver nada, tropieza desesperado a encender la luz y tampoco lograba ver ni un rayo de luz, en ese momento se paraliza totalmente logra abrir la puerta en pánico y ve al fondo la luz tenue de la luna, simplemente tenía su celular descargado y recordó el problema eléctrico que vivía su país.',
+'Todo parecía perfecto, el crucero era de lo mejor, mi esposa y yo habíamos reunido para lograr costear el viaje, ya había trascurrido cinco días y esa noche nos encontrábamos sentados en la popa del barco, me percate que algo no transcurría bien, un tripulante corría en dirección hacia el puente de mando, solo hubiera deseado no recordar una cosa ´´no sé nadar´´',
+'Estaba nervioso, presentaría para la carrera de medicina, el joven se había esforzado para lograr cumplir esa meta tan preciada y esperada por su familia, comenzaron a llamar a los participantes, el joven se sienta en su mesa y espera las indicaciones mientras un dolor abdominal comenzaba a hacer estragos, el profesor a cargo les da la orden de iniciar el examen y justamente en ese momento se le rompe la punta del lápiz, el joven se percata que había dejado su sacapuntas en el bolso que minutos antes había dejado en un casillero y solo le quedaba el lápiz de repuesto. Fue el examen más largo de su vida ´´era de desarrollo´ ',
+'Era joven e inexperto, el pequeño violista tocaría con la orquesta de los más grandes, tenía que demostrar que era apto para continuar en ese puesto, los ensayos habían sido agobiantes, el miedo de pasar por un regaño o quedar en ridículo lo tenían con un trauma constante, el día del concierto ensayaron en el gran anfiteatro, era de proporciones titánicas y la elegancia de aquel lugar hacían alarde de su fama, antes de iniciar el ensayo el joven se percata como colocan pequeños micrófonos en los instrumentos incluido el de él. Al momento de iniciar la afinación se percata que solo debía hacer un mínimo de esfuerzo para que su sonido retumbara en todo el anfiteatro un mínimo error seria escuchado hasta por el oído menos entrenado. Adivinen quien toco los más silencioso posible o como dicen los músicos ´´piano´´ para no ser escuchado. Luego de ese día tomo más enserio el practicar horas extra.',
+'´´Si algo es seguro es que no estoy seguro de nada ´´ así pensaba el joven médico que hacia su primera guardia sin supervisión, rogaba que fuera tranquila y sin nada que lo tomara de sorpresa puesto que no hay nada más tenebroso para un médico que la inexperiencia y estar en un pueblo alejado de cualquier hospital. En ese mismo instante llega un joven a la emergencia con convulsiones, el joven médico siguiendo el protocolo le administra fármacos para tratar las convulsiones. A que no se imaginan quien tuvo una reacción adversa al medicamento. Investiguen ´´síndrome de Steven Johnson´´ ',
+'El joven toco la puerta de una vieja casa, eran las doce de la noche y su vehículo estaba averiado. -puedo ayudarlo joven- sonrió un viejo al abrir la puerta -puedo usar su teléfono por favor, mi auto esta averiado- -claro adelante- El joven se adentra en la vieja casa y prosigue detrás del viejo que a pasos lentos lo llevaba a una habitación, el joven hace la llamada cuando pensó que sus problemas habían acabado ve una máscara en el suelo, la toma y un grito desgarrador retumbo en la habitación, era la cara del viejo y un hombre sin rostro enfrente decía -eres joven vendrá muy bien para mi colección -El joven luego de eso solo ve mascaras dentro de una habitación colgadas en la pared.',
+'-Hola papa aún no llegamos, el bus parece que se perdió- – Hola hija no comprendo ya deberían haber llegado estamos en el terminal esperándolos- – Lo sé papa es extraño el GPS no funciona y los pasajeros están empezando a asustarse- – Tranquila ¿no ves nada por la ventana?- -Está muy oscuro afuera y los teléfonos de los demás están fallando al igual que el mío- -Llamaremos a la policía estén tranquilos ¿cómo se ve el chofer?- -No lo sé estamos en el segundo piso del bus, espera estamos entrando en un cementerio ¡papa!…- -Hija responde-',
+'En nuestra casa hay una puerta en el sótano Que más que se intente no podemos abrir Han pasado largos años sigue de la misma manera Creemos que está blindada del otro lado Bueno creo que seguiremos encerrados aquí abajo',]
+const suspen2 = Math.floor(Math.random()*suspen.length)
+const suspen3 = suspen[suspen2]
+enviartexto(suspen3)
+break
+
+
+case 'filosofia':
+  const filo = ['A Francia\nEs mejor entender un poco que malinterpretar',
+  'Abraham Lincoln\nCasi todos los hombres son capaces de soportar la adversidad Sin embargo, si quieres probar el verdadero carácter de un hombre, dale poder',
+'Esquilo"\nCuando la determinación de uno es fuerte y firme, Dios se unirá a sus esfuerzos',
+'Esopo\nEl sufrimiento es una lección',
+'Albert Einstein\nLa ciencia sin religión es patética',
+'Albert Einstein\nLa vida es como una bicicleta, para mantener el equilibrio tenemos que seguir moviéndonos',
+'Albert Einstein\nLa diferencia entre pasado, presente y futuro no es más que una obstinada ilusión',
+'Albert Einstein\nUna mesa, una silla, un frutero y un violín; ¿qué más se necesita para ser feliz?',
+'Albert Einstein\nTen piedad de los demás, sé duro contigo mismo',
+'Alex Osborn\nLa mejor manera de motivarse es asignarse tareas',
+'Alexander A Bogomoletz\nNo debemos desanimarnos La pasión es el estímulo más fuerte para amar, ser creativo y desear vivir más',
+'Alexander Solzhenitsyn\nEl hombre será feliz mientras elija ser feliz',
+'Arte Buchwald\nSi puedes hacer reír a otras personas, obtendrás todo el amor que deseas',   
+'Artemus Ward\nLos problemas llegarán tarde o temprano Si surge un problema, dale la bienvenida lo mejor que puedas Cuanto más amistoso lo saludes, más rápido irá',
+'Ashleigh Brillante\nNo podemos hacer nada para cambiar el pasado Pero cualquier cosa que hagamos puede cambiar el futuro',
+'Agustín\nLa paciencia es amiga de la sabiduría',
+'Ayn Rand\nLas personas creativas están motivadas por el deseo de salir adelante, no por el deseo de vencer a los demás',
+'B J Habibie\nDondequiera que estés siempre sé el mejor y da lo mejor que podamos dar',
+'Balzac\nEl odio es como el amor, inflamado por pequeñas cosas',
+'Bárbara Sher\nNo necesariamente tienes que tener éxito la primera vez',
+'Beecher\nUna hora intensa, mucho mejor y rentable que años de soñar y meditar',
+'Benjamin Disraeli\nLo mejor que puedes hacer por otra persona no es compartir tu riqueza, sino ayudarla a tener la suya propia',
+'Bill Clinton\nNo hay garantía de éxito, pero no intentarlo es garantía de fracaso',
+'Ali Javán\nNo espero ser todo para todos Solo quiero ser algo para alguien',
+'Ali bin Abi Talib\Cuando el intelecto de un hombre es perfecto, tiene pocas palabras',
+'Ali bin Abi Talib\nFeliz el hombre que puede ser su propio amo, el auriga de sus pasiones y el capitán del arca de su vida',
+'Ali bin Abi Talib\nUn amigo honesto vale más que las posesiones heredadas de tus antepasados',
+'Anne M Lindbergh\nLo que más cansa en la vida es no ser sincero', 
+'Anónimo\nÁbrete a ti, así es como Dios nos da un camino para probar Nunca pienses que el camino está cerrado',
+'Anónimo\nLa procrastinación es la tumba donde se entierra la oportunidad',
+'Antonie De Saint\nAmar no es mirarse a los ojos, sino mirar juntos en la misma dirección',
+'Aristóteles\nSomos lo que hacemos repetidamente Por lo tanto, la excelencia no es un acto, sino un hábito',
+'Arnold Glasow\nNunca intentes agradar a tu hijo o hija Tú eres solo uno',
+'Bill Cosby\nNo sé cuál es la clave del éxito, pero la clave del fracaso es tratar de hacer felices a todos',
+'Bill Gates\nEl consumidor más insatisfecho es un recurso valioso para el aprendizaje',
+'Bill McCartney\nNo estamos aquí para competir entre nosotros Estamos aquí para complementarnos',
+'Brian Koslow\nCuanto más dispuestos estemos a asumir la responsabilidad de nuestras acciones, más credibilidad tendremos',
+'Browning\nSiempre es bueno perdonar, pero es mejor olvidar un error',
+'Bruce Lee\nNo seas un árbol rígido que se rompe con facilidad Sé un bambú que puede soportar doblarse contra el viento',
+'Buda Gautama\nNo llores por el fracaso del amor, porque el hombre dejará todo lo que ama',
+'Madre Teresa\nSi juzgas a otras personas, no tienes tiempo para amarlas',
+'Madre Teresa\nSi no hay paz, es porque nos hemos olvidado de que nos necesitamos unos a otros',
+'Bung Hatta\nSe puede mejorar menos inteligencia con el aprendizaje, la falta de habilidad se puede mejorar con la experiencia, la falta de honestidad es difícil de arreglar',
+'Grabar\nMuchas personas tienen éxito gracias a las muchas dificultades y penurias que deben enfrentar',
+'Carol Burnet\nSolo yo puedo cambiar mi vida, nadie puede hacerlo por mí',
+'Charles Darwin\nNo es la especie más fuerte la que sobrevive Ni la especie más inteligente Sino la especie que responde mejor al cambio',
+'Charles R Swindoll\nLa vida es un 10 por ciento lo que te sucede, un 90 por ciento cómo reaccionas ante ello', 
+'Ching Hai\nMejorarnos a nosotros mismos es mejorar el mundo',
+'Ching Hai\nNo discrimines entre buenos y malos trabajos Los problemas surgen cuando discriminamos y tomamos partido',
+'Ching Hai\nDebemos trabajar sin ataduras Eso se aplica a todos los trabajos La devoción incondicional es lo mejor',
+'Ching Hai\nPrimero debemos encontrar el poder del amor dentro de nosotros mismos, luego podremos amar verdaderamente a los demás',
+'Ching Hai\npensamiento: "Busca el dinero suficiente para pagar tu vida, de modo que puedas reservar tiempo y energía para la práctica espiritual',
+'Cristóbal Colón\nLa riqueza no enriquece a una persona, solo la hace más ocupado',
+'Cicerón\nUn corazón agradecido no es solo la mayor virtud, sino la madre de todas las demás virtudes',
+'CicerónUn corazón agradecido no es solo la mayor virtud, sino la madre de todas las demás virtudes',
+'Clarence DarrowLa libertad viene de las personas, no de las leyes o instituciones',
+'ConfucioLa vida es realmente simple, pero insistimos en complicarla',
+'Confucio\nDondequiera que vayas, ve con todo tu corazón',
+'Confucio\nLas personas que cometen errores y no corrigen sus errores cometen otros errores',
+'Confucio\nNuestro mayor orgullo no es no fallar nunca, sino levantarnos cada vez que nos caemos',
+'Cobre\nLa flor que nunca se marchitará en la tierra es una virtud',
+'Cynthia Ozick\nImaginar lo inimaginable requiere una imaginación extraordinaria',
+'D J Schwartz\nCualquier dificultad no resiste la tenacidad y la perseverancia Sin tenacidad, las personas más inteligentes y talentosas a menudo fracasan en la vida',
+'Dale Carnegie\nLa única forma en que podemos obtener amor, no es exigir que nos amen, sino comenzar a dar amor a los demás sin esperar nada a cambio',
+'Dale Carnegie\nCuando las personas que se preocupan por sus defectos están agradecidas por la riqueza que tienen, dejarán de preocuparse',
+'Dale Carnegie\nIntenta formar una conexión de "cable" entre tu cerebro y tu corazón',
+'Dale Carnegie\nUna sonrisa enriquecerá el alma de quien la recibe, sin empobrecer a quien la da']
+const filo2 = Math.floor(Math.random()*filo.length)
+const filo3 = filo[filo2]
+enviartexto(filo3)
+break
+
 case 'historia': case 'terror':
   const miedo = ['Una familia, compuesta por dos pequeños y sus padres, viajaban por carretera hacia [....] cuando el coche se les averió. Los padres salieron a buscar ayuda y, para que los niños no se aburrieran, les dejaron con la radio encendida. Cayó la noche y los padres seguían sin volver cuando escucharon una inquietante noticia en la radio: un asesino muy peligroso se había escapado de un centro penitenciario cercano a [....] y pedían que se extremaran las precauciones.Las horas pasaban y los padres de los niños no regresaban. De pronto, empezaron a escuchar golpes sobre sus cabezas. “Poc, poc, poc”. Los golpes, que parecían provenir de algo que golpeaba la parte de arriba del coche, eran cada vez más rápidos y más fuertes. “POC, POC, POC”. Los niños, aterrados, no pudieron resistir más: abrieron la puerta y huyeron a toda prisa.Solo el mayor de los niños se atrevió a girar la cabeza para mirar qué provocaba los golpes. No debería haberlo hecho: sobre el coche había un hombre de gran tamaño, que golpeaba la parte superior del vehículo con algo que tenía en las manos: eran las cabezas de sus padres.' ,
   ' Hace unos años, en un campamento, hubo un grupo de jóvenes que, durante una excusión, se perdió. Tras varias horas perdidos, encontraron a un hombre solitario: llevaba un hacha a la espalda y no les daba buena espina pero, desesperados, le preguntaron cómo se llegaba al pueblo. A pesar de la primera impresión, el hombre resultó ser supergradable: les dijo que se llamaba Yoduloso y les acompañó hasta el pueblo, donde se despidió. Antes, se hizo una foto junto a los jóvenes.El grupo de jóvenes contó en el pueblo que el hombre que los había llevado hasta allí se llamaba Yoduloso, pero los vecinos de la localidad dijeron que aquello era imposible. El único Yoduloso que había habido en el pueblo falleció hace más de 100 años, y murió de una forma horrible: un grupo de niños jugaba a la pelota y se le escapó, y Yoduloso fue a por ella. Llevaba un hacha en la mano y tuvo la mala suerte de tropezar y cortarse su propia pierna. Murió desangrado.Los jóvenes escucharon incrédulos y pensaron que, incluso a pesar de las coincidencias del nombre y de que aquel señor también llevaba un hacha, era imposible que se trata de la misma persona. Sin embargo, cuando revelaron aquella foto que se habían hecho al llegar al pueblo, se percataron de algo que les hizo cambiar de parecer: Yoduloso había desaparecido de la fotografía.' ,
@@ -2421,6 +2517,12 @@ default:
 }
 
 // COMANDOS SIN PREFIJOS
+ 
+
+  
+
+
+
 
 } catch (e) {
 console.log(e)
